@@ -1,0 +1,19 @@
+main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 10vh 0;
+    color: white;
+}
+.BtnContainer{
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    margin-bottom: 10vh;
+    padding: 0 4vw;
+}
+h3{
+    padding: 0 4vw 15px 4vw;
+}

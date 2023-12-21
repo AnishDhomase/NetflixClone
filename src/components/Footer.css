@@ -1,0 +1,25 @@
+.fter{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 4vw;
+    background-color: black;
+}
+.fter .logo img{
+    width: 150px;
+}
+.fter i{
+    font-size: 25px;
+    margin-left: 20px;
+}
+.fter i:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+@media screen and (max-width:450px) {
+    .fter .logo img{
+        width: 100px;
+    }
+}

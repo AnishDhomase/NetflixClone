@@ -1,0 +1,29 @@
+.card{
+    border: 1px solid black;
+    height: 150px;
+    width: 250px;
+    margin: 0 10px;
+}
+
+.card:hover{
+    scale: 1.07;
+    cursor: pointer;
+}
+
+@media screen and (max-width:1250px) {
+    .card{
+        border: 1px solid black;
+        height: 130px;
+        width: 220px;
+        margin: 0 10px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .cardHolder .card{
+        width: 80%;
+        height: auto;
+        margin: 0;
+    }
+}
+

@@ -1,0 +1,25 @@
+button{
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+}
+button i{
+    margin-right: 12px;
+    font-size: 25px;
+
+}
+button:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+@media screen and (max-width:500px) {
+    button{
+        padding: 8px 17px;
+        font-size: 15px;
+    }
+}
